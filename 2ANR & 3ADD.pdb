@@ -1,0 +1,105 @@
+SEQRES   1 B   25  C   5BU C   G   C   G   G   A   U   C   A   G   U
+SEQRES   2 B   25  C   A   C   C   C   A   A   G   C   G   A   G
+SEQRES   1 A  178  PRO LEU GLY SER GLN TYR PHE LEU LYS VAL LEU ILE PRO
+SEQRES   2 A  178  SER TYR ALA ALA GLY SER ILE ILE GLY LYS GLY GLY GLN
+SEQRES   3 A  178  THR ILE VAL GLN LEU GLN LYS GLU THR GLY ALA THR ILE
+SEQRES   4 A  178  LYS LEU SER LYS SER LYS ASP PHE TYR PRO GLY THR THR
+SEQRES   5 A  178  GLU ARG VAL CYS LEU ILE GLN GLY THR ILE GLU ALA LEU
+SEQRES   6 A  178  ASN ALA VAL HIS GLY PHE ILE ALA GLU LYS ILE ARG GLU
+SEQRES   7 A  178  MSE PRO GLN ASN VAL ALA LYS THR GLU PRO VAL SER ILE
+SEQRES   8 A  178  LEU GLN PRO GLN THR THR VAL ASN PRO ASP ARG ALA ASN
+SEQRES   9 A  178  GLN VAL LYS ILE ILE VAL PRO ASN SER THR ALA GLY LEU
+SEQRES  10 A  178  ILE ILE GLY LYS GLY GLY ALA THR VAL LYS ALA ILE MSE
+SEQRES  11 A  178  GLU GLN SER GLY ALA TRP VAL GLN LEU SER GLN LYS PRO
+SEQRES  12 A  178  ASP GLY ILE ASN LEU GLN ASN ARG VAL VAL THR VAL SER
+SEQRES  13 A  178  GLY GLU PRO GLU GLN ASN ARG LYS ALA VAL GLU LEU ILE
+SEQRES  14 A  178  ILE GLN LYS ILE GLN GLU ASP PRO GLN
+LINK        K    K   B 301                N1   G   B 207     1555   1555  3.65
+LINK        K    K   B 301                O6   G   B 207     1555   1555  2.59
+LINK        O    HOH B 304                K    K   B 301     1555   1555  3.23
+LINK        K    K   B 301                O6   G   B 206     1555   1555  2.60
+LINK        MG   MG  B 302                O6   G   B 207     1555   1555  2.18
+LINK        MG   MG  B 306                O6   G   B 206     1555   1555  2.20
+LINK        K    K   B 301                MG   MG  B 306     1555   1555  3.71
+LINK        MG   MG  B 302                K    K   B 301     1555   1555  3.14
+LINK        O    HOH B 321                K    K   B 301     1555   1555  2.79
+LINK        O    HOH B 322                K    K   B 301     1555   1555  2.83
+LINK        O    HOH B 332                K    K   B 301     1555   1555  2.70
+LINK        O    HOH B 334                K    K   B 301     1555   1555  2.34
+LINK        O    HOH B 334                MG   MG  B 302     1555   1555  2.81
+LINK        O    HOH B 303                MG   MG  B 302     1555   1555  2.10
+LINK        O    HOH B 324                MG   MG  B 302     1555   1555  3.11
+LINK        O    HOH B 332                MG   MG  B 306     1555   1555  2.25
+LINK        O    HOH B 333                MG   MG  B 306     1555   1555  2.28
+LINK        O    HOH B 321                MG   MG  B 302     1555   1555  2.34
+LINK        O    HOH B 323                MG   MG  B 306     1555   1555  2.35
+CRYST1  159.453   37.885   38.523  90.00  96.64  90.00 C 1 2 1       4
+MODEL        1
+ATOM      1  P   C   B 214      45.662  -9.468  13.884  1.00 18.06           P
+ATOM      2  OP1 C   B 214      44.452  -9.385  13.049  1.00 13.97           O
+ATOM      3  OP2 C   B 214      45.804 -10.576  14.843  1.00 16.20           O
+ATOM      4  O5' C   B 214      46.978  -9.504  12.956  1.00 19.17           O
+ATOM      5  C5' C   B 214      46.989  -8.937  11.639  1.00 20.69           C
+ATOM      6  C4' C   B 214      48.213  -9.385  10.847  1.00 20.81           C
+ATOM      7  O4' C   B 214      49.415  -8.740  11.350  1.00 23.05           O
+ATOM      8  C3' C   B 214      48.504 -10.887  10.878  1.00 22.35           C
+ATOM      9  O3' C   B 214      49.067 -11.286   9.641  1.00 24.97           O
+ATOM     10  C2' C   B 214      49.532 -11.002  11.994  1.00 21.28           C
+ATOM     11  O2' C   B 214      50.353 -12.121  11.822  1.00 21.68           O
+ATOM     12  C1' C   B 214      50.340  -9.713  11.805  1.00 21.12           C
+ATOM     13  N1  C   B 214      50.946  -9.194  13.076  1.00 22.14           N
+ATOM     14  C2  C   B 214      52.333  -9.219  13.261  1.00 20.83           C
+ATOM     15  O2  C   B 214      53.078  -9.662  12.356  1.00 23.30           O
+ATOM     16  N3  C   B 214      52.835  -8.720  14.411  1.00 19.69           N
+ATOM     17  C4  C   B 214      52.023  -8.228  15.355  1.00 19.56           C
+ATOM     18  N4  C   B 214      52.577  -7.773  16.481  1.00 17.48           N
+ATOM     19  C5  C   B 214      50.608  -8.204  15.192  1.00 20.10           C
+ATOM     20  C6  C   B 214      50.121  -8.689  14.045  1.00 20.94           C
+TER      21      C   B 214
+ATOM     22  N   ARG A  54      62.017  -5.741  15.029  1.00 23.82           N
+ATOM     23  CA  ARG A  54      61.620  -5.995  13.668  1.00 23.36           C
+ATOM     24  C   ARG A  54      61.967  -4.815  12.769  1.00 23.73           C
+ATOM     25  O   ARG A  54      62.082  -3.666  13.241  1.00 22.97           O
+ATOM     26  CB  ARG A  54      60.138  -6.304  13.634  1.00 23.30           C
+ATOM     27  CG  ARG A  54      59.849  -7.669  14.229  1.00 21.55           C
+ATOM     28  CD  ARG A  54      58.396  -7.955  14.469  1.00 19.61           C
+ATOM     29  NE  ARG A  54      57.649  -8.151  13.221  1.00 15.05           N
+ATOM     30  CZ  ARG A  54      56.337  -8.319  13.178  1.00 12.36           C
+ATOM     31  NH1 ARG A  54      55.651  -8.358  14.310  1.00 11.53           N
+ATOM     32  NH2 ARG A  54      55.709  -8.470  12.014  1.00 10.66           N
+ENDMDL
+MODEL        2
+ATOM      1  N   ARG A 195      59.705 -13.477   5.778  1.00 34.82           N
+ATOM      2  CA  ARG A 195      58.829 -12.346   6.066  1.00 32.53           C
+ATOM      3  C   ARG A 195      59.131 -11.203   5.086  1.00 30.57           C
+ATOM      4  O   ARG A 195      58.222 -10.547   4.610  1.00 32.24           O
+ATOM      5  CB  ARG A 195      59.024 -11.887   7.526  1.00 32.41           C
+ATOM      6  CG  ARG A 195      58.254 -10.604   7.931  1.00 27.03           C
+ATOM      7  CD  ARG A 195      56.796 -10.881   8.315  1.00 27.47           C
+ATOM      8  NE  ARG A 195      56.173  -9.693   8.865  1.00 24.97           N
+ATOM      9  CZ  ARG A 195      55.106  -9.682   9.662  1.00 19.94           C
+ATOM     10  NH1 ARG A 195      54.630  -8.540  10.101  1.00 21.51           N
+ATOM     11  NH2 ARG A 195      54.528 -10.803  10.050  1.00 25.27           N
+TER      12      ARG A 195
+ATOM     13  P   C   C  20A     45.028  -9.520  11.024  1.00 36.93           P
+ATOM     14  OP1 C   C  20A     45.070 -10.752  10.179  1.00 30.89           O
+ATOM     15  OP2 C   C  20A     43.880  -9.287  11.943  1.00 40.12           O
+ATOM     16  O5' C   C  20A     46.366  -9.436  11.884  1.00 36.58           O
+ATOM     17  C5' C   C  20A     47.050 -10.616  12.258  1.00 34.14           C
+ATOM     18  C4' C   C  20A     48.327 -10.733  11.485  1.00 34.97           C
+ATOM     19  O4' C   C  20A     49.127  -9.555  11.723  1.00 35.41           O
+ATOM     20  C3' C   C  20A     49.202 -11.882  11.967  1.00 35.86           C
+ATOM     21  O3' C   C  20A     48.825 -13.091  11.347  1.00 31.10           O
+ATOM     22  C2' C   C  20A     50.610 -11.430  11.605  1.00 31.23           C
+ATOM     23  O2' C   C  20A     50.957 -11.634  10.256  1.00 28.85           O
+ATOM     24  C1' C   C  20A     50.497  -9.930  11.842  1.00 30.79           C
+ATOM     25  N1  C   C  20A     50.992  -9.493  13.147  1.00 25.05           N
+ATOM     26  C2  C   C  20A     52.369  -9.536  13.378  1.00 28.80           C
+ATOM     27  O2  C   C  20A     53.111 -10.009  12.495  1.00 36.15           O
+ATOM     28  N3  C   C  20A     52.854  -9.071  14.544  1.00 24.47           N
+ATOM     29  C4  C   C  20A     52.014  -8.588  15.474  1.00 25.53           C
+ATOM     30  N4  C   C  20A     52.541  -8.112  16.610  1.00 20.40           N
+ATOM     31  C5  C   C  20A     50.606  -8.566  15.278  1.00 22.15           C
+ATOM     32  C6  C   C  20A     50.141  -9.023  14.109  1.00 28.50           C
+ENDMDL
+END

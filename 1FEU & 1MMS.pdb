@@ -1,0 +1,1072 @@
+HEADER    RIBOSOME                                23-JUL-00   1FEU              
+TITLE     CRYSTAL STRUCTURE OF RIBOSOMAL PROTEIN TL5, ONE OF THE CTC FAMILY     
+TITLE    2 PROTEINS, COMPLEXED WITH A FRAGMENT OF 5S RRNA.                      
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: 19 NT FRAGMENT OF 5S RRNA;                                 
+COMPND   3 CHAIN: B, E;                                                         
+COMPND   4 FRAGMENT: INCLUDES LOOP E AND HELIX IV;                              
+COMPND   5 ENGINEERED: YES;                                                     
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: 21 NT FRAGMENT OF 5S RRNA;                                 
+COMPND   8 CHAIN: C, F;                                                         
+COMPND   9 FRAGMENT: INCLUDES LOOP E AND HELIX IV;                              
+COMPND  10 ENGINEERED: YES;                                                     
+COMPND  11 MOL_ID: 3;                                                           
+COMPND  12 MOLECULE: 50S RIBOSOMAL PROTEIN L25;                                 
+COMPND  13 CHAIN: A, D;                                                         
+COMPND  14 SYNONYM: RIBOSOMAL PROTEIN TL5;                                      
+COMPND  15 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 SYNTHETIC: YES;                                                      
+SOURCE   3 MOL_ID: 2;                                                           
+SOURCE   4 SYNTHETIC: YES;                                                      
+SOURCE   5 MOL_ID: 3;                                                           
+SOURCE   6 ORGANISM_SCIENTIFIC: THERMUS THERMOPHILUS;                           
+SOURCE   7 ORGANISM_TAXID: 274;                                                 
+SOURCE   8 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   9 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE  10 OTHER_DETAILS: BACTERIA                                              
+KEYWDS    GENERAL STRESS PROTEIN CTC, 5S RRNA-PROTEIN COMPLEX, CADMIUM IONS,    
+KEYWDS   2 RIBOSOME                                                             
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    R.V.FEDOROV,V.A.MESHCHERYAKOV,G.M.GONGADZE,N.P.FOMENKOVA,             
+AUTHOR   2 N.A.NEVSKAYA,M.SELMER,M.LAURBERG,O.KRISTENSEN,S.AL-KARADAGHI,        
+AUTHOR   3 A.LILJAS,M.B.GARBER,S.V.NIKONOV                                      
+REVDAT   4   04-OCT-17 1FEU    1       REMARK                                   
+REVDAT   3   24-FEB-09 1FEU    1       VERSN                                    
+REVDAT   2   01-APR-03 1FEU    1       JRNL                                     
+REVDAT   1   25-JUN-01 1FEU    0                                                
+JRNL        AUTH   R.FEDOROV,V.MESHCHERYAKOV,G.GONGADZE,N.FOMENKOVA,N.NEVSKAYA, 
+JRNL        AUTH 2 M.SELMER,M.LAURBERG,O.KRISTENSEN,S.AL-KARADAGHI,A.LILJAS,    
+JRNL        AUTH 3 M.GARBER,S.NIKONOV                                           
+JRNL        TITL   STRUCTURE OF RIBOSOMAL PROTEIN TL5 COMPLEXED WITH RNA        
+JRNL        TITL 2 PROVIDES NEW INSIGHTS INTO THE CTC FAMILY OF STRESS          
+JRNL        TITL 3 PROTEINS.                                                    
+JRNL        REF    ACTA CRYSTALLOGR.,SECT.D      V.  57   968 2001              
+JRNL        REFN                   ISSN 0907-4449                               
+JRNL        PMID   11418764                                                     
+JRNL        DOI    10.1107/S0907444901006291                                    
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.30 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNS                                                  
+REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
+REMARK   3               : READ,RICE,SIMONSON,WARREN                            
+REMARK   3                                                                      
+REMARK   3  REFINEMENT TARGET : NULL                                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.30                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 8.00                           
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 2.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : NULL                           
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 91.4                           
+REMARK   3   NUMBER OF REFLECTIONS             : 37059                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE            (WORKING SET) : 0.208                           
+REMARK   3   FREE R VALUE                     : 0.245                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 10.000                          
+REMARK   3   FREE R VALUE TEST SET COUNT      : 3722                            
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : NULL                            
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : NULL                         
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : NULL                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : NULL                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : NULL                         
+REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : NULL                         
+REMARK   3   BIN R VALUE           (WORKING SET) : NULL                         
+REMARK   3   BIN FREE R VALUE                    : NULL                         
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : NULL                         
+REMARK   3   BIN FREE R VALUE TEST SET COUNT     : NULL                         
+REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : NULL                         
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 2976                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 1722                                    
+REMARK   3   HETEROGEN ATOMS          : 30                                      
+REMARK   3   SOLVENT ATOMS            : 295                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 44.14                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : NULL                           
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : NULL                                                 
+REMARK   3    B22 (A**2) : NULL                                                 
+REMARK   3    B33 (A**2) : NULL                                                 
+REMARK   3    B12 (A**2) : NULL                                                 
+REMARK   3    B13 (A**2) : NULL                                                 
+REMARK   3    B23 (A**2) : NULL                                                 
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : NULL                            
+REMARK   3   ESD FROM SIGMAA              (A) : NULL                            
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : NULL                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : NULL                            
+REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : 0.006                           
+REMARK   3   BOND ANGLES            (DEGREES) : 1.182                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : NULL                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : NULL                            
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELING.                                              
+REMARK   3   METHOD USED : NULL                                                 
+REMARK   3   KSOL        : NULL                                                 
+REMARK   3   BSOL        : NULL                                                 
+REMARK   3                                                                      
+REMARK   3  NCS MODEL : NULL                                                    
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
+REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
+REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : NULL                                           
+REMARK   3  TOPOLOGY FILE  1   : NULL                                           
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK   4                                                                      
+REMARK   4 1FEU COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 27-JUL-00.                  
+REMARK 100 THE DEPOSITION ID IS D_1000011523.                                   
+REMARK 200                                                                      
+REMARK 200 EXPERIMENTAL DETAILS                                                 
+REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
+REMARK 200  DATE OF DATA COLLECTION        : 01-MAY-99; 20-NOV-99               
+REMARK 200  TEMPERATURE           (KELVIN) : 100; 100                           
+REMARK 200  PH                             : NULL                               
+REMARK 200  NUMBER OF CRYSTALS USED        : 1                                  
+REMARK 200                                                                      
+REMARK 200  SYNCHROTRON              (Y/N) : Y; Y                               
+REMARK 200  RADIATION SOURCE               : MAX II; EMBL/DESY, HAMBURG         
+REMARK 200  BEAMLINE                       : I711; BW7A                         
+REMARK 200  X-RAY GENERATOR MODEL          : NULL; NULL                         
+REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M; NULL                            
+REMARK 200  WAVELENGTH OR RANGE        (A) : 1.108; 0.9794                      
+REMARK 200  MONOCHROMATOR                  : NULL; NULL                         
+REMARK 200  OPTICS                         : NULL; NULL                         
+REMARK 200                                                                      
+REMARK 200  DETECTOR TYPE                  : IMAGE PLATE; IMAGE PLATE           
+REMARK 200  DETECTOR MANUFACTURER          : MARRESEARCH; MARRESEARCH           
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : MAR                                
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
+REMARK 200                                                                      
+REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 41886                              
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.300                              
+REMARK 200  RESOLUTION RANGE LOW       (A) : 20.000                             
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 3.000                              
+REMARK 200                                                                      
+REMARK 200 OVERALL.                                                             
+REMARK 200  COMPLETENESS FOR RANGE     (%) : 98.8                               
+REMARK 200  DATA REDUNDANCY                : 5.600                              
+REMARK 200  R MERGE                    (I) : 0.05200                            
+REMARK 200  R SYM                      (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 17.0000                            
+REMARK 200                                                                      
+REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : 2.30                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 2.34                     
+REMARK 200  COMPLETENESS FOR SHELL     (%) : 97.8                               
+REMARK 200  DATA REDUNDANCY IN SHELL       : 3.80                               
+REMARK 200  R MERGE FOR SHELL          (I) : 0.36500                            
+REMARK 200  R SYM FOR SHELL            (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : NULL                               
+REMARK 200                                                                      
+REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH; NULL                        
+REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: NULL                         
+REMARK 200 SOFTWARE USED: DM                                                    
+REMARK 200 STARTING MODEL: NULL                                                 
+REMARK 200                                                                      
+REMARK 200 REMARK: NULL                                                         
+REMARK 280                                                                      
+REMARK 280 CRYSTAL                                                              
+REMARK 280 SOLVENT CONTENT, VS   (%): 62.79                                     
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.31                     
+REMARK 280                                                                      
+REMARK 280 CRYSTALLIZATION CONDITIONS: VAPOR DIFFUSION, HANGING DROP            
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
+REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 31 1 2                         
+REMARK 290                                                                      
+REMARK 290      SYMOP   SYMMETRY                                                
+REMARK 290     NNNMMM   OPERATOR                                                
+REMARK 290       1555   X,Y,Z                                                   
+REMARK 290       2555   -Y,X-Y,Z+1/3                                            
+REMARK 290       3555   -X+Y,-X,Z+2/3                                           
+REMARK 290       4555   -Y,-X,-Z+2/3                                            
+REMARK 290       5555   -X+Y,Y,-Z+1/3                                           
+REMARK 290       6555   X,X-Y,-Z                                                
+REMARK 290                                                                      
+REMARK 290     WHERE NNN -> OPERATOR NUMBER                                     
+REMARK 290           MMM -> TRANSLATION VECTOR                                  
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY TRANSFORMATIONS                            
+REMARK 290 THE FOLLOWING TRANSFORMATIONS OPERATE ON THE ATOM/HETATM             
+REMARK 290 RECORDS IN THIS ENTRY TO PRODUCE CRYSTALLOGRAPHICALLY                
+REMARK 290 RELATED MOLECULES.                                                   
+REMARK 290   SMTRY1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   2 -0.500000 -0.866025  0.000000        0.00000            
+REMARK 290   SMTRY2   2  0.866025 -0.500000  0.000000        0.00000            
+REMARK 290   SMTRY3   2  0.000000  0.000000  1.000000       45.83700            
+REMARK 290   SMTRY1   3 -0.500000  0.866025  0.000000        0.00000            
+REMARK 290   SMTRY2   3 -0.866025 -0.500000  0.000000        0.00000            
+REMARK 290   SMTRY3   3  0.000000  0.000000  1.000000       91.67400            
+REMARK 290   SMTRY1   4  0.500000 -0.866025  0.000000        0.00000            
+REMARK 290   SMTRY2   4 -0.866025 -0.500000  0.000000        0.00000            
+REMARK 290   SMTRY3   4  0.000000  0.000000 -1.000000       91.67400            
+REMARK 290   SMTRY1   5 -1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   5  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   5  0.000000  0.000000 -1.000000       45.83700            
+REMARK 290   SMTRY1   6  0.500000  0.866025  0.000000        0.00000            
+REMARK 290   SMTRY2   6  0.866025 -0.500000  0.000000        0.00000            
+REMARK 290   SMTRY3   6  0.000000  0.000000 -1.000000        0.00000            
+REMARK 290                                                                      
+REMARK 290 REMARK: NULL                                                         
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1, 2                                                    
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TRIMERIC                          
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: B, C, A                               
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 2                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TRIMERIC                          
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: E, F, D                               
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                
+REMARK 465                                                                      
+REMARK 465   M RES C SSSEQI                                                     
+REMARK 465     GLU A   186                                                      
+REMARK 465     ALA A   187                                                      
+REMARK 465     ALA A   188                                                      
+REMARK 465     ALA A   189                                                      
+REMARK 465     GLU A   190                                                      
+REMARK 465     VAL A   191                                                      
+REMARK 465     ALA A   192                                                      
+REMARK 465     GLU A   193                                                      
+REMARK 465     PRO A   194                                                      
+REMARK 465     GLU A   195                                                      
+REMARK 465     VAL A   196                                                      
+REMARK 465     ILE A   197                                                      
+REMARK 465     LYS A   198                                                      
+REMARK 465     LYS A   199                                                      
+REMARK 465     GLY A   200                                                      
+REMARK 465     LYS A   201                                                      
+REMARK 465     GLU A   202                                                      
+REMARK 465     GLU A   203                                                      
+REMARK 465     GLU A   204                                                      
+REMARK 465     GLU A   205                                                      
+REMARK 465     GLU A   206                                                      
+REMARK 465     GLU D   190                                                      
+REMARK 465     VAL D   191                                                      
+REMARK 465     ALA D   192                                                      
+REMARK 465     GLU D   193                                                      
+REMARK 465     PRO D   194                                                      
+REMARK 465     GLU D   195                                                      
+REMARK 465     VAL D   196                                                      
+REMARK 465     ILE D   197                                                      
+REMARK 465     LYS D   198                                                      
+REMARK 465     LYS D   199                                                      
+REMARK 465     GLY D   200                                                      
+REMARK 465     LYS D   201                                                      
+REMARK 465     GLU D   202                                                      
+REMARK 465     GLU D   203                                                      
+REMARK 465     GLU D   204                                                      
+REMARK 465     GLU D   205                                                      
+REMARK 465     GLU D   206                                                      
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: CLOSE CONTACTS                                             
+REMARK 500                                                                      
+REMARK 500 THE FOLLOWING ATOMS THAT ARE RELATED BY CRYSTALLOGRAPHIC             
+REMARK 500 SYMMETRY ARE IN CLOSE CONTACT.  AN ATOM LOCATED WITHIN 0.15          
+REMARK 500 ANGSTROMS OF A SYMMETRY RELATED ATOM IS ASSUMED TO BE ON A           
+REMARK 500 SPECIAL POSITION AND IS, THEREFORE, LISTED IN REMARK 375             
+REMARK 500 INSTEAD OF REMARK 500.  ATOMS WITH NON-BLANK ALTERNATE               
+REMARK 500 LOCATION INDICATORS ARE NOT INCLUDED IN THE CALCULATIONS.            
+REMARK 500                                                                      
+REMARK 500 DISTANCE CUTOFF:                                                     
+REMARK 500 2.2 ANGSTROMS FOR CONTACTS NOT INVOLVING HYDROGEN ATOMS              
+REMARK 500 1.6 ANGSTROMS FOR CONTACTS INVOLVING HYDROGEN ATOMS                  
+REMARK 500                                                                      
+REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI  SSYMOP   DISTANCE          
+REMARK 500   NH2  ARG A    80     NH2  ARG A    80     6555     2.14            
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
+REMARK 500                                                                      
+REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
+REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
+REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
+REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
+REMARK 500      G B  81   C3' -  O3' -  P   ANGL. DEV. =   8.3 DEGREES          
+REMARK 500      U B  82   O3' -  P   -  OP1 ANGL. DEV. =   8.3 DEGREES          
+REMARK 500      A C 101   O3' -  P   -  OP1 ANGL. DEV. =   6.9 DEGREES          
+REMARK 500      A C 104   O3' -  P   -  OP2 ANGL. DEV. =   6.7 DEGREES          
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    GLU A  11      -79.63   -134.90                                   
+REMARK 500    ARG A  31       -8.98    -53.12                                   
+REMARK 500    ASN A  34      115.94   -164.04                                   
+REMARK 500    SER A  52     -135.28     55.01                                   
+REMARK 500    ASP A  63       25.49    -69.43                                   
+REMARK 500    ARG A  80      178.06    161.49                                   
+REMARK 500    SER A  92     -145.29   -120.75                                   
+REMARK 500    PRO A 177     -145.68    -59.18                                   
+REMARK 500    ASP A 179      126.12     68.86                                   
+REMARK 500    VAL A 180       29.49   -155.58                                   
+REMARK 500    GLU A 181       52.63    169.39                                   
+REMARK 500    LYS A 182      155.78     73.53                                   
+REMARK 500    ALA A 184       96.61    -57.09                                   
+REMARK 500    GLU D  11      -90.66   -135.84                                   
+REMARK 500    ASN D  34      104.59   -160.03                                   
+REMARK 500    SER D  52     -136.37     55.80                                   
+REMARK 500    ARG D  79       85.71     36.91                                   
+REMARK 500    ARG D  80     -179.33    114.33                                   
+REMARK 500    ARG D  82      139.56   -179.75                                   
+REMARK 500    SER D  92     -136.21   -129.37                                   
+REMARK 500    PHE D 136      172.55    176.84                                   
+REMARK 500    VAL D 180      -56.01     74.99                                   
+REMARK 500    GLU D 181      -93.04     43.93                                   
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 620                                                                      
+REMARK 620 METAL COORDINATION                                                   
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD A 296  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HIS A  54   NE2                                                    
+REMARK 620 2 HOH A 305   O    96.8                                              
+REMARK 620 3 HOH A 306   O    84.1 162.8                                        
+REMARK 620 4 HOH A 307   O    77.4 105.8  91.2                                  
+REMARK 620 5 ASP A 123   OD2  96.2  86.8  76.1 166.4                            
+REMARK 620 N                    1     2     3     4                             
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD A 297  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 MET A   1   O                                                      
+REMARK 620 2 HIS A  55   ND1  99.1                                              
+REMARK 620 3 GLU A 135   OE2 136.9  79.6                                        
+REMARK 620 4 GLU A 135   OE1 145.3 114.4  48.4                                  
+REMARK 620 5 HOH A 342   O    77.3 122.1 139.7  91.6                            
+REMARK 620 6 MET A   1   N    70.1 123.4  75.0  83.4 109.6                      
+REMARK 620 N                    1     2     3     4     5                       
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD A 298  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH A 304   O                                                      
+REMARK 620 2 HIS A  32   NE2  92.9                                              
+REMARK 620 3 SER A  92   OG  134.1 115.2                                        
+REMARK 620 4 ASP A  93   OD1 118.2 142.5  58.3                                  
+REMARK 620 5 HOH A 308   O   171.4  78.5  52.1  69.7                            
+REMARK 620 N                    1     2     3     4                             
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD A 299  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HIS A 151   ND1                                                    
+REMARK 620 2 ASP A 154   OD1  94.9                                              
+REMARK 620 3 HOH A 320   O   168.5  96.4                                        
+REMARK 620 4 HOH D 434   O    85.8 172.8  83.3                                  
+REMARK 620 N                    1     2     3                                   
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD A 301  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH A 313   O                                                      
+REMARK 620 2 GLU A 169   OE2  67.1                                              
+REMARK 620 3 HOH A 309   O   113.8 158.1                                        
+REMARK 620 4 HIS A 121   NE2 156.7  92.4  89.4                                  
+REMARK 620 N                    1     2     3                                   
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD A 302  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 ASP A 123   O                                                      
+REMARK 620 2 HOH A 309   O    93.5                                              
+REMARK 620 3 HOH A 311   O    85.1 174.9                                        
+REMARK 620 N                    1     2                                         
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG B 311  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH B 251   O                                                      
+REMARK 620 2 HOH B  10   O    68.8                                              
+REMARK 620 3 HOH B  12   O   158.2 108.2                                        
+REMARK 620 4 HOH B  13   O    86.9 110.7 113.6                                  
+REMARK 620 5 HOH B  17   O    86.1 154.4  93.1  71.4                            
+REMARK 620 N                    1     2     3     4                             
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG B 313  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH D 380   O                                                      
+REMARK 620 2   A F  99   N6  136.8                                              
+REMARK 620 N                    1                                               
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG C 309  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1   A C 109   N6                                                     
+REMARK 620 2   A C 109   N1   48.5                                              
+REMARK 620 3 HOH C 319   O   109.7  79.2                                        
+REMARK 620 4 HOH C 320   O   104.1  63.9  84.0                                  
+REMARK 620 5 HOH F 326   O    97.2 139.6  98.2 156.5                            
+REMARK 620 6 HOH F 344   O    72.5 103.1 177.6  96.4  80.5                      
+REMARK 620 N                    1     2     3     4     5                       
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG C 312  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH C 341   O                                                      
+REMARK 620 2 HOH C 342   O    64.5                                              
+REMARK 620 3 HOH C 340   O    81.1  89.4                                        
+REMARK 620 N                    1     2                                         
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG C 314  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH C 343   O                                                      
+REMARK 620 2 HOH C 345   O   172.1                                              
+REMARK 620 3 HOH C 346   O   105.3  80.7                                        
+REMARK 620 4   G C 100   OP2  81.6  93.4  90.3                                  
+REMARK 620 5 HOH C 347   O    86.2  97.6 102.9 163.9                            
+REMARK 620 6 HOH C 344   O    91.8  81.2 158.2  78.7  91.4                      
+REMARK 620 N                    1     2     3     4     5                       
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD D 300  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 ASP D  93   OD1                                                    
+REMARK 620 2 HOH D 434   O    75.9                                              
+REMARK 620 3 ASP D  93   OD2  46.6  74.3                                        
+REMARK 620 4 HOH D 435   O    77.8 144.1  69.9                                  
+REMARK 620 5 HOH A 318   O   112.0 103.3 158.6 108.9                            
+REMARK 620 N                    1     2     3     4                             
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD D 303  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH D 325   O                                                      
+REMARK 620 2 HOH D 324   O    73.8                                              
+REMARK 620 3 HIS D  54   NE2  95.9  79.1                                        
+REMARK 620 4 HOH D 343   O    80.2 153.7  99.7                                  
+REMARK 620 5 ASP D 123   OD1 163.8 119.9  79.4  85.2                            
+REMARK 620 6 HOH D 323   O    91.9 112.7 167.4  71.9  90.3                      
+REMARK 620 N                    1     2     3     4     5                       
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD D 304  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 MET D   1   N                                                      
+REMARK 620 2 HIS D  55   ND1 135.1                                              
+REMARK 620 3 GLU D 135   OE2  75.7  82.9                                        
+REMARK 620 4 HOH D 443   O   102.0 113.7 153.8                                  
+REMARK 620 5 MET D   1   O    70.9  92.9 127.1  74.3                            
+REMARK 620 6 GLU D 135   OE1  89.9 106.4  50.8 103.6 159.4                      
+REMARK 620 N                    1     2     3     4     5                       
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD D 305  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH D 425   O                                                      
+REMARK 620 2 GLU D  94   OE2  63.6                                              
+REMARK 620 3 HIS D  32   NE2 173.7 111.8                                        
+REMARK 620 4 GLU D  94   OE1  89.2  50.8  90.8                                  
+REMARK 620 5 SER D  92   OG   72.4 105.7 113.6  73.2                            
+REMARK 620 6 GLU A 168   OE2  95.5 110.6  81.9 155.5 131.1                      
+REMARK 620 7 GLU A 168   OE1  88.8 148.3  94.3 150.5  78.1  53.8                
+REMARK 620 N                    1     2     3     4     5     6                 
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD D 306  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HIS D 151   ND1                                                    
+REMARK 620 2 ASP D 154   OD1  96.3                                              
+REMARK 620 N                    1                                               
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD D 307  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH D 355   O                                                      
+REMARK 620 2 HOH D 336   O   116.3                                              
+REMARK 620 3 GLU D 169   OE2  85.7 152.5                                        
+REMARK 620 4 HIS D 121   NE2  86.2  99.9  63.4                                  
+REMARK 620 N                    1     2     3                                   
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              CD D 308  CD                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH D 336   O                                                      
+REMARK 620 2 HOH D 328   O   168.0                                              
+REMARK 620 3 ASP D 123   O    90.7  80.8                                        
+REMARK 620 N                    1     2                                         
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG D 310  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 ASP D  40   OD2                                                    
+REMARK 620 2 ASP D  40   OD1  49.1                                              
+REMARK 620 3 HOH D 381   O    98.3 146.7                                        
+REMARK 620 4 HOH D 436   O    87.8  74.7 116.5                                  
+REMARK 620 5 HOH D 406   O   104.4  77.9 109.3 130.2                            
+REMARK 620 N                    1     2     3     4                             
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG D 319  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH D 437   O                                                      
+REMARK 620 2 HOH E 351   O   140.4                                              
+REMARK 620 N                    1                                               
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG D 320  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 GLU D  13   OE2                                                    
+REMARK 620 2   A F  94   N3  126.8                                              
+REMARK 620 3 HOH E 351   O   124.8  96.2                                        
+REMARK 620 4   A F  94   O2'  89.4  98.4 119.9                                  
+REMARK 620 N                    1     2     3                                   
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG E 315  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH E 348   O                                                      
+REMARK 620 2 HOH E 331   O   109.2                                              
+REMARK 620 3 HOH F 357   O    92.3 144.4                                        
+REMARK 620 4 HOH E 349   O    80.8 139.1  70.6                                  
+REMARK 620 5   G E  76   O6  166.8  73.0  92.6  89.3                            
+REMARK 620 N                    1     2     3     4                             
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG E 321  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH E 351   O                                                      
+REMARK 620 2   G E  83   O2' 113.1                                              
+REMARK 620 3 HOH D 375   O    96.2 118.4                                        
+REMARK 620 4 TYR D  38   OH  118.8 103.0 108.2                                  
+REMARK 620 N                    1     2     3                                   
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG F 316  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH E 350   O                                                      
+REMARK 620 2 HOH F 335   O   113.8                                              
+REMARK 620 3   G F  96   O6   65.9 169.9                                        
+REMARK 620 4   U F  95   O4   79.4  93.0  96.8                                  
+REMARK 620 5   U E  80   O4   68.9  81.5  89.3 141.9                            
+REMARK 620 6 HOH E 328   O   142.9  64.2 109.4 136.4  74.4                      
+REMARK 620 N                    1     2     3     4     5                       
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG F 323  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1   C F 110   O3'                                                    
+REMARK 620 2 HOH F 344   O    65.9                                              
+REMARK 620 N                    1                                               
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MG F 324  MG                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH F 360   O                                                      
+REMARK 620 2 HOH F 359   O   115.4                                              
+REMARK 620 3 HOH F 358   O    78.3 118.6                                        
+REMARK 620 4 HOH F 345   O    73.2 170.0  66.9                                  
+REMARK 620 5 HOH F 333   O    93.3  90.4 150.8  83.9                            
+REMARK 620 6   G F 100   OP2 146.8  97.8  86.0  73.7  86.3                      
+REMARK 620 N                    1     2     3     4     5                       
+REMARK 800                                                                      
+REMARK 800 SITE                                                                 
+REMARK 800 SITE_IDENTIFIER: AC1                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD A 296                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC2                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD A 297                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC3                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD A 298                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC4                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD A 299                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC5                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD D 300                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC6                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD A 301                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC7                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD A 302                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC8                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD D 303                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC9                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD D 304                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: BC1                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD D 305                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: BC2                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD D 306                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: BC3                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD D 307                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: BC4                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CD D 308                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: BC5                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG C 309                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: BC6                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG D 310                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: BC7                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 311                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: BC8                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG C 312                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: BC9                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 313                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: CC1                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG C 314                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: CC2                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG E 315                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: CC3                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG F 316                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: CC4                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG F 317                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: CC5                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG C 318                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: CC6                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG D 319                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: CC7                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG D 320                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: CC8                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG E 321                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: CC9                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG F 323                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: DC1                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG F 324                  
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: DC2                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG F 325                  
+DBREF  1FEU A    1   206  UNP    P56930   RL25_THETH       1    206             
+DBREF  1FEU D    1   206  UNP    P56930   RL25_THETH       1    206             
+DBREF  1FEU B   69    87  PDB    1FEU     1FEU            69     87             
+DBREF  1FEU C   90   110  PDB    1FEU     1FEU            90    110             
+DBREF  1FEU E   69    87  PDB    1FEU     1FEU            69     87             
+DBREF  1FEU F   90   110  PDB    1FEU     1FEU            90    110             
+SEQRES   1 B   19    G   C   C   G   A   U   G   G   U   A   G   U   G          
+SEQRES   2 B   19    U   G   G   G   G   U                                      
+SEQRES   1 C   21    C   C   C   C   A   U   G   C   G   A   G   A   G          
+SEQRES   2 C   21    U   A   G   G   G   A   A   C                              
+SEQRES   1 E   19    G   C   C   G   A   U   G   G   U   A   G   U   G          
+SEQRES   2 E   19    U   G   G   G   G   U                                      
+SEQRES   1 F   21    C   C   C   C   A   U   G   C   G   A   G   A   G          
+SEQRES   2 F   21    U   A   G   G   G   A   A   C                              
+SEQRES   1 A  206  MET GLU TYR ARG LEU LYS ALA TYR TYR ARG GLU GLY GLU          
+SEQRES   2 A  206  LYS PRO SER ALA LEU ARG ARG ALA GLY LYS LEU PRO GLY          
+SEQRES   3 A  206  LEU MET TYR ASN ARG HIS LEU ASN ARG LYS VAL TYR VAL          
+SEQRES   4 A  206  ASP LEU VAL GLU PHE ASP LYS VAL PHE ARG GLN ALA SER          
+SEQRES   5 A  206  ILE HIS HIS VAL ILE VAL LEU GLU LEU PRO ASP GLY GLN          
+SEQRES   6 A  206  SER LEU PRO THR LEU VAL ARG GLN VAL ASN LEU ASP LYS          
+SEQRES   7 A  206  ARG ARG ARG ARG PRO GLU HIS VAL ASP PHE PHE VAL LEU          
+SEQRES   8 A  206  SER ASP GLU PRO VAL GLU MET TYR VAL PRO LEU ARG PHE          
+SEQRES   9 A  206  VAL GLY THR PRO ALA GLY VAL ARG ALA GLY GLY VAL LEU          
+SEQRES  10 A  206  GLN GLU ILE HIS ARG ASP ILE LEU VAL LYS VAL SER PRO          
+SEQRES  11 A  206  ARG ASN ILE PRO GLU PHE ILE GLU VAL ASP VAL SER GLY          
+SEQRES  12 A  206  LEU GLU ILE GLY ASP SER LEU HIS ALA SER ASP LEU LYS          
+SEQRES  13 A  206  LEU PRO PRO GLY VAL GLU LEU ALA VAL SER PRO GLU GLU          
+SEQRES  14 A  206  THR ILE ALA ALA VAL VAL PRO PRO GLU ASP VAL GLU LYS          
+SEQRES  15 A  206  LEU ALA GLU GLU ALA ALA ALA GLU VAL ALA GLU PRO GLU          
+SEQRES  16 A  206  VAL ILE LYS LYS GLY LYS GLU GLU GLU GLU GLU                  
+SEQRES   1 D  206  MET GLU TYR ARG LEU LYS ALA TYR TYR ARG GLU GLY GLU          
+SEQRES   2 D  206  LYS PRO SER ALA LEU ARG ARG ALA GLY LYS LEU PRO GLY          
+SEQRES   3 D  206  LEU MET TYR ASN ARG HIS LEU ASN ARG LYS VAL TYR VAL          
+SEQRES   4 D  206  ASP LEU VAL GLU PHE ASP LYS VAL PHE ARG GLN ALA SER          
+SEQRES   5 D  206  ILE HIS HIS VAL ILE VAL LEU GLU LEU PRO ASP GLY GLN          
+SEQRES   6 D  206  SER LEU PRO THR LEU VAL ARG GLN VAL ASN LEU ASP LYS          
+SEQRES   7 D  206  ARG ARG ARG ARG PRO GLU HIS VAL ASP PHE PHE VAL LEU          
+SEQRES   8 D  206  SER ASP GLU PRO VAL GLU MET TYR VAL PRO LEU ARG PHE          
+SEQRES   9 D  206  VAL GLY THR PRO ALA GLY VAL ARG ALA GLY GLY VAL LEU          
+SEQRES  10 D  206  GLN GLU ILE HIS ARG ASP ILE LEU VAL LYS VAL SER PRO          
+SEQRES  11 D  206  ARG ASN ILE PRO GLU PHE ILE GLU VAL ASP VAL SER GLY          
+SEQRES  12 D  206  LEU GLU ILE GLY ASP SER LEU HIS ALA SER ASP LEU LYS          
+SEQRES  13 D  206  LEU PRO PRO GLY VAL GLU LEU ALA VAL SER PRO GLU GLU          
+SEQRES  14 D  206  THR ILE ALA ALA VAL VAL PRO PRO GLU ASP VAL GLU LYS          
+SEQRES  15 D  206  LEU ALA GLU GLU ALA ALA ALA GLU VAL ALA GLU PRO GLU          
+SEQRES  16 D  206  VAL ILE LYS LYS GLY LYS GLU GLU GLU GLU GLU                  
+HET     MG  B 311       1                                                       
+HET     MG  B 313       1                                                       
+HET     MG  C 309       1                                                       
+HET     MG  C 312       1                                                       
+HET     MG  C 314       1                                                       
+HET     MG  C 318       1                                                       
+HET     MG  E 315       1                                                       
+HET     MG  E 321       1                                                       
+HET     MG  F 316       1                                                       
+HET     MG  F 317       1                                                       
+HET     MG  F 323       1                                                       
+HET     MG  F 324       1                                                       
+HET     MG  F 325       1                                                       
+HET     CD  A 296       1                                                       
+HET     CD  A 297       1                                                       
+HET     CD  A 298       1                                                       
+HET     CD  A 299       1                                                       
+HET     CD  A 301       1                                                       
+HET     CD  A 302       1                                                       
+HET     CD  D 300       1                                                       
+HET     CD  D 303       1                                                       
+HET     CD  D 304       1                                                       
+HET     CD  D 305       1                                                       
+HET     CD  D 306       1                                                       
+HET     CD  D 307       1                                                       
+HET     CD  D 308       1                                                       
+HET     MG  D 310       1                                                       
+HET     MG  D 319       1                                                       
+HET     MG  D 320       1                                                       
+HET     MG  D 322       1                                                       
+HETNAM      MG MAGNESIUM ION                                                    
+HETNAM      CD CADMIUM ION                                                      
+FORMUL   7   MG    17(MG 2+)                                                    
+FORMUL  20   CD    13(CD 2+)                                                    
+FORMUL  37  HOH   *295(H2 O)                                                    
+LINK        CD    CD A 296                 NE2 HIS A  54     1555   1555  2.30  
+LINK        CD    CD A 296                 O   HOH A 305     1555   1555  2.37  
+LINK        CD    CD A 296                 O   HOH A 306     1555   1555  2.84  
+LINK        CD    CD A 296                 O   HOH A 307     1555   1555  2.55  
+LINK        CD    CD A 296                 OD2 ASP A 123     1555   1555  2.50  
+LINK        CD    CD A 297                 O   MET A   1     1555   1555  2.31  
+LINK        CD    CD A 297                 ND1 HIS A  55     1555   1555  2.23  
+LINK        CD    CD A 297                 OE2 GLU A 135     1555   1555  2.72  
+LINK        CD    CD A 297                 OE1 GLU A 135     1555   1555  2.68  
+LINK        CD    CD A 297                 O   HOH A 342     1555   1555  2.47  
+LINK        CD    CD A 297                 N   MET A   1     1555   1555  2.69  
+LINK        CD    CD A 298                 O   HOH A 304     1555   1555  2.61  
+LINK        CD    CD A 298                 NE2 HIS A  32     1555   1555  2.32  
+LINK        CD    CD A 298                 OG  SER A  92     1555   1555  2.99  
+LINK        CD    CD A 298                 OD1 ASP A  93     1555   1555  2.48  
+LINK        CD    CD A 298                 O   HOH A 308     1555   1555  2.68  
+LINK        CD    CD A 299                 ND1 HIS A 151     1555   1555  2.88  
+LINK        CD    CD A 299                 OD1 ASP A 154     1555   1555  2.58  
+LINK        CD    CD A 299                 O   HOH A 320     1555   1555  3.11  
+LINK        CD    CD A 301                 O   HOH A 313     1555   1555  2.90  
+LINK        CD    CD A 301                 OE2 GLU A 169     1555   1555  2.76  
+LINK        CD    CD A 301                 O   HOH A 309     1555   1555  2.73  
+LINK        CD    CD A 301                 NE2 HIS A 121     1555   1555  2.54  
+LINK        CD    CD A 302                 O   ASP A 123     1555   1555  2.38  
+LINK        CD    CD A 302                 O   HOH A 309     1555   1555  2.91  
+LINK        CD    CD A 302                 O   HOH A 311     1555   1555  2.93  
+LINK        MG    MG B 311                 O   HOH B 251     1555   1555  2.48  
+LINK        MG    MG B 311                 O   HOH B  10     1555   1555  1.93  
+LINK        MG    MG B 311                 O   HOH B  12     1555   1555  1.90  
+LINK        MG    MG B 311                 O   HOH B  13     1555   1555  1.94  
+LINK        MG    MG B 311                 O   HOH B  17     1555   1555  1.91  
+LINK        MG    MG B 313                 O   HOH D 380     1555   1555  2.84  
+LINK        MG    MG B 313                 N6    A F  99     1555   1555  2.94  
+LINK        MG    MG C 309                 N6    A C 109     1555   1555  2.96  
+LINK        MG    MG C 309                 N1    A C 109     1555   1555  2.57  
+LINK        MG    MG C 309                 O   HOH C 319     1555   1555  2.41  
+LINK        MG    MG C 309                 O   HOH C 320     1555   1555  2.15  
+LINK        MG    MG C 312                 O   HOH C 341     1555   1555  2.02  
+LINK        MG    MG C 312                 O   HOH C 342     1555   1555  2.65  
+LINK        MG    MG C 312                 O   HOH C 340     1555   1555  1.98  
+LINK        MG    MG C 314                 O   HOH C 343     1555   1555  2.14  
+LINK        MG    MG C 314                 O   HOH C 345     1555   1555  2.23  
+LINK        MG    MG C 314                 O   HOH C 346     1555   1555  1.90  
+LINK        MG    MG C 314                 OP2   G C 100     1555   1555  2.00  
+LINK        MG    MG C 314                 O   HOH C 347     1555   1555  2.17  
+LINK        MG    MG C 314                 O   HOH C 344     1555   1555  2.12  
+LINK        MG    MG C 318                 O3'   C C 110     1555   1555  1.81  
+LINK        CD    CD D 300                 OD1 ASP D  93     1555   1555  2.53  
+LINK        CD    CD D 300                 O   HOH D 434     1555   1555  2.61  
+LINK        CD    CD D 300                 OD2 ASP D  93     1555   1555  2.94  
+LINK        CD    CD D 300                 O   HOH D 435     1555   1555  2.56  
+LINK        CD    CD D 303                 O   HOH D 325     1555   1555  2.16  
+LINK        CD    CD D 303                 O   HOH D 324     1555   1555  2.62  
+LINK        CD    CD D 303                 NE2 HIS D  54     1555   1555  2.40  
+LINK        CD    CD D 303                 O   HOH D 343     1555   1555  2.46  
+LINK        CD    CD D 303                 OD1 ASP D 123     1555   1555  2.28  
+LINK        CD    CD D 303                 O   HOH D 323     1555   1555  2.31  
+LINK        CD    CD D 304                 N   MET D   1     1555   1555  2.60  
+LINK        CD    CD D 304                 ND1 HIS D  55     1555   1555  2.46  
+LINK        CD    CD D 304                 OE2 GLU D 135     1555   1555  2.77  
+LINK        CD    CD D 304                 O   HOH D 443     1555   1555  2.61  
+LINK        CD    CD D 304                 O   MET D   1     1555   1555  2.73  
+LINK        CD    CD D 304                 OE1 GLU D 135     1555   1555  2.24  
+LINK        CD    CD D 305                 O   HOH D 425     1555   1555  2.44  
+LINK        CD    CD D 305                 OE2 GLU D  94     1555   1555  2.18  
+LINK        CD    CD D 305                 NE2 HIS D  32     1555   1555  2.33  
+LINK        CD    CD D 305                 OE1 GLU D  94     1555   1555  2.78  
+LINK        CD    CD D 305                 OG  SER D  92     1555   1555  2.63  
+LINK        CD    CD D 306                 ND1 HIS D 151     1555   1555  2.63  
+LINK        CD    CD D 306                 OD1 ASP D 154     1555   1555  2.46  
+LINK        CD    CD D 307                 O   HOH D 355     1555   1555  2.61  
+LINK        CD    CD D 307                 O   HOH D 336     1555   1555  2.83  
+LINK        CD    CD D 307                 OE2 GLU D 169     1555   1555  2.92  
+LINK        CD    CD D 307                 NE2 HIS D 121     1555   1555  2.48  
+LINK        CD    CD D 308                 O   HOH D 336     1555   1555  3.04  
+LINK        CD    CD D 308                 O   HOH D 328     1555   1555  2.64  
+LINK        CD    CD D 308                 O   ASP D 123     1555   1555  2.90  
+LINK        MG    MG D 310                 OD2 ASP D  40     1555   1555  2.42  
+LINK        MG    MG D 310                 OD1 ASP D  40     1555   1555  2.80  
+LINK        MG    MG D 310                 O   HOH D 381     1555   1555  2.64  
+LINK        MG    MG D 310                 O   HOH D 436     1555   1555  2.30  
+LINK        MG    MG D 310                 O   HOH D 406     1555   1555  2.67  
+LINK        MG    MG D 319                 O   HOH D 437     1555   1555  2.05  
+LINK        MG    MG D 320                 OE2 GLU D  13     1555   1555  2.40  
+LINK        MG    MG E 315                 O   HOH E 348     1555   1555  2.05  
+LINK        MG    MG E 315                 O   HOH E 331     1555   1555  3.07  
+LINK        MG    MG E 315                 O   HOH F 357     1555   1555  2.15  
+LINK        MG    MG E 315                 O   HOH E 349     1555   1555  2.09  
+LINK        MG    MG E 315                 O6    G E  76     1555   1555  3.01  
+LINK        MG    MG E 321                 O   HOH E 351     1555   1555  2.73  
+LINK        MG    MG E 321                 O2'   G E  83     1555   1555  2.50  
+LINK        MG    MG F 316                 O   HOH E 350     1555   1555  2.72  
+LINK        MG    MG F 316                 O   HOH F 335     1555   1555  2.66  
+LINK        MG    MG F 316                 O6    G F  96     1555   1555  2.80  
+LINK        MG    MG F 316                 O4    U F  95     1555   1555  2.70  
+LINK        MG    MG F 316                 O4    U E  80     1555   1555  2.89  
+LINK        MG    MG F 316                 O   HOH E 328     1555   1555  2.86  
+LINK        MG    MG F 323                 O3'   C F 110     1555   1555  2.28  
+LINK        MG    MG F 323                 O   HOH F 344     1555   1555  2.10  
+LINK        MG    MG F 324                 O   HOH F 360     1555   1555  2.00  
+LINK        MG    MG F 324                 O   HOH F 359     1555   1555  1.94  
+LINK        MG    MG F 324                 O   HOH F 358     1555   1555  2.44  
+LINK        MG    MG F 324                 O   HOH F 345     1555   1555  2.52  
+LINK        MG    MG F 324                 O   HOH F 333     1555   1555  2.08  
+LINK        MG    MG F 324                 OP2   G F 100     1555   1555  2.02  
+LINK        MG    MG F 325                 OP2   A F 108     1555   1555  2.14  
+LINK        CD    CD A 299                 O   HOH D 434     1555   5555  2.99  
+LINK        MG    MG C 309                 O   HOH F 326     1555   2665  2.66  
+LINK        MG    MG C 309                 O   HOH F 344     1555   2665  2.27  
+LINK        CD    CD D 300                 O   HOH A 318     1555   5555  2.74  
+LINK        CD    CD D 305                 OE2 GLU A 168     1555   5555  2.51  
+LINK        CD    CD D 305                 OE1 GLU A 168     1555   5555  2.34  
+LINK        MG    MG D 319                 O   HOH E 351     1555   5555  2.74  
+LINK        MG    MG D 320                 N3    A F  94     1555   5555  2.78  
+LINK        MG    MG D 320                 O   HOH E 351     1555   5555  2.72  
+LINK        MG    MG D 320                 O2'   A F  94     1555   5555  2.62  
+LINK        MG    MG E 321                 O   HOH D 375     1555   5555  2.74  
+LINK        MG    MG E 321                 OH  TYR D  38     1555   5555  2.54  
+SITE     1 AC1  5 HIS A  54  ASP A 123  HOH A 305  HOH A 306                    
+SITE     2 AC1  5 HOH A 307                                                     
+SITE     1 AC2  4 MET A   1  HIS A  55  GLU A 135  HOH A 342                    
+SITE     1 AC3  6 HIS A  32  SER A  92  ASP A  93  GLU A  94                    
+SITE     2 AC3  6 HOH A 304  HOH A 308                                          
+SITE     1 AC4  4 SER A 149  HIS A 151  ASP A 154  HOH D 434                    
+SITE     1 AC5  5 HIS A 151  HOH A 318  ASP D  93  HOH D 434                    
+SITE     2 AC5  5 HOH D 435                                                     
+SITE     1 AC6  4 HIS A 121  GLU A 169  HOH A 309  HOH A 313                    
+SITE     1 AC7  4 HIS A 121  ASP A 123  HOH A 309  HOH A 311                    
+SITE     1 AC8  6 HIS D  54  ASP D 123  HOH D 323  HOH D 324                    
+SITE     2 AC8  6 HOH D 325  HOH D 343                                          
+SITE     1 AC9  4 MET D   1  HIS D  55  GLU D 135  HOH D 443                    
+SITE     1 BC1  5 GLU A 168  HIS D  32  SER D  92  GLU D  94                    
+SITE     2 BC1  5 HOH D 425                                                     
+SITE     1 BC2  2 HIS D 151  ASP D 154                                          
+SITE     1 BC3  4 HIS D 121  GLU D 169  HOH D 336  HOH D 355                    
+SITE     1 BC4  4 HIS D 121  ASP D 123  HOH D 328  HOH D 336                    
+SITE     1 BC5  5   A C 109  HOH C 319  HOH C 320  HOH F 326                    
+SITE     2 BC5  5 HOH F 344                                                     
+SITE     1 BC6  4 ASP D  40  HOH D 381  HOH D 406  HOH D 436                    
+SITE     1 BC7  5 HOH B  10  HOH B  12  HOH B  13  HOH B  17                    
+SITE     2 BC7  5 HOH B 251                                                     
+SITE     1 BC8  3 HOH C 340  HOH C 341  HOH C 342                               
+SITE     1 BC9  4   U B  80  HOH D 380    A E  78    A F  99                    
+SITE     1 CC1  6   G C 100  HOH C 343  HOH C 344  HOH C 345                    
+SITE     2 CC1  6 HOH C 346  HOH C 347                                          
+SITE     1 CC2  6   G E  75    G E  76  HOH E 331  HOH E 348                    
+SITE     2 CC2  6 HOH E 349  HOH F 357                                          
+SITE     1 CC3  6   U E  80  HOH E 328  HOH E 350    U F  95                    
+SITE     2 CC3  6   G F  96  HOH F 335                                          
+SITE     1 CC4  2   C F  97    G F  98                                          
+SITE     1 CC5  1   C C 110                                                     
+SITE     1 CC6  2 HOH D 437  HOH E 351                                          
+SITE     1 CC7  3 GLU D  13  HOH E 351    A F  94                               
+SITE     1 CC8  4 TYR D  38  HOH D 375    G E  83  HOH E 351                    
+SITE     1 CC9  2   C F 110  HOH F 344                                          
+SITE     1 DC1  6   G F 100  HOH F 333  HOH F 345  HOH F 358                    
+SITE     2 DC1  6 HOH F 359  HOH F 360                                          
+SITE     1 DC2  1   A F 108                                                     
+CRYST1  109.904  109.904  137.511  90.00  90.00 120.00 P 31 1 2     12          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.009099  0.005253  0.000000        0.00000                         
+SCALE2      0.000000  0.010506  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.007272        0.00000                         
+MODEL        1
+ATOM      1  P   U   E  74      -1.499  35.834   8.411  1.00 24.09           P
+ATOM      2  OP1 U   E  74      -0.895  36.448   9.621  1.00 25.56           O
+ATOM      3  OP2 U   E  74      -0.639  35.083   7.462  1.00 26.25           O
+ATOM      4  O5' U   E  74      -2.686  34.876   8.863  1.00 24.68           O
+ATOM      5  C5' U   E  74      -3.658  35.320   9.802  1.00 21.48           C
+ATOM      6  C4' U   E  74      -4.847  34.394   9.800  1.00 20.76           C
+ATOM      7  O4' U   E  74      -5.542  34.481   8.527  1.00 22.15           O
+ATOM      8  C3' U   E  74      -4.513  32.920   9.916  1.00 20.66           C
+ATOM      9  O3' U   E  74      -4.246  32.548  11.260  1.00 21.80           O
+ATOM     10  C2' U   E  74      -5.776  32.274   9.368  1.00 20.70           C
+ATOM     11  O2' U   E  74      -6.837  32.269  10.300  1.00 19.81           O
+ATOM     12  C1' U   E  74      -6.112  33.219   8.212  1.00 21.28           C
+ATOM     13  N1  U   E  74      -5.539  32.749   6.943  1.00 19.80           N
+ATOM     14  C2  U   E  74      -6.271  31.832   6.217  1.00 19.70           C
+ATOM     15  O2  U   E  74      -7.365  31.432   6.572  1.00 19.33           O
+ATOM     16  N3  U   E  74      -5.674  31.403   5.058  1.00 16.47           N
+ATOM     17  C4  U   E  74      -4.448  31.793   4.561  1.00 17.30           C
+ATOM     18  O4  U   E  74      -4.030  31.291   3.517  1.00 17.80           O
+ATOM     19  C5  U   E  74      -3.759  32.756   5.364  1.00 17.78           C
+ATOM     20  C6  U   E  74      -4.316  33.191   6.499  1.00 18.46           C
+TER      21      U   E  74
+ATOM     22  N   ASN D  34     -13.834  33.295   9.263  1.00 22.24           N
+ATOM     23  CA  ASN D  34     -12.622  32.498   9.152  1.00 22.63           C
+ATOM     24  C   ASN D  34     -12.471  31.669  10.416  1.00 24.78           C
+ATOM     25  O   ASN D  34     -12.099  32.179  11.472  1.00 26.17           O
+ATOM     26  CB  ASN D  34     -11.405  33.395   8.959  1.00 18.82           C
+ATOM     27  CG  ASN D  34     -10.141  32.607   8.686  1.00 16.69           C
+ATOM     28  OD1 ASN D  34      -9.502  32.102   9.610  1.00 14.86           O
+ATOM     29  ND2 ASN D  34      -9.776  32.491   7.406  1.00 14.36           N
+ENDMDL
+MODEL        2
+ATOM      1  P   U   D1081      -1.357  35.140   8.942  1.00 31.28           P
+ATOM      2  OP1 U   D1081      -0.786  35.202  10.313  1.00 35.73           O
+ATOM      3  OP2 U   D1081      -0.652  34.351   7.892  1.00  8.76           O
+ATOM      4  O5' U   D1081      -2.863  34.641   9.055  1.00 18.56           O
+ATOM      5  C5' U   D1081      -3.839  35.448   9.739  1.00 22.44           C
+ATOM      6  C4' U   D1081      -5.221  34.868   9.564  1.00 34.63           C
+ATOM      7  O4' U   D1081      -5.595  34.889   8.166  1.00 31.00           O
+ATOM      8  C3' U   D1081      -5.371  33.418   9.987  1.00 37.02           C
+ATOM      9  O3' U   D1081      -5.634  33.355  11.382  1.00 43.64           O
+ATOM     10  C2' U   D1081      -6.549  32.935   9.144  1.00 32.75           C
+ATOM     11  O2' U   D1081      -7.801  33.276   9.712  1.00 30.48           O
+ATOM     12  C1' U   D1081      -6.357  33.735   7.857  1.00 21.25           C
+ATOM     13  N1  U   D1081      -5.674  33.013   6.774  1.00  8.85           N
+ATOM     14  C2  U   D1081      -6.413  32.125   6.009  1.00 18.01           C
+ATOM     15  O2  U   D1081      -7.593  31.856   6.238  1.00 20.38           O
+ATOM     16  N3  U   D1081      -5.727  31.556   4.969  1.00  4.56           N
+ATOM     17  C4  U   D1081      -4.407  31.774   4.625  1.00 19.29           C
+ATOM     18  O4  U   D1081      -3.957  31.268   3.592  1.00 17.28           O
+ATOM     19  C5  U   D1081      -3.707  32.669   5.487  1.00  8.37           C
+ATOM     20  C6  U   D1081      -4.347  33.237   6.508  1.00  9.01           C
+TER      21      U   D1081
+ATOM     22  N   ASN B 117     -12.264  33.761   9.574  1.00 32.39           N
+ATOM     23  CA  ASN B 117     -11.913  32.459  10.118  1.00 32.20           C
+ATOM     24  C   ASN B 117     -10.705  32.592  11.054  1.00 37.64           C
+ATOM     25  O   ASN B 117     -10.125  31.597  11.491  1.00 35.01           O
+ATOM     26  CB  ASN B 117     -11.605  31.481   8.987  1.00 24.31           C
+ATOM     27  CG  ASN B 117     -10.356  31.844   8.237  1.00 29.72           C
+ATOM     28  OD1 ASN B 117      -9.923  32.997   8.254  1.00 32.78           O
+ATOM     29  ND2 ASN B 117      -9.762  30.862   7.567  1.00 25.55           N
+ENDMDL
+END
